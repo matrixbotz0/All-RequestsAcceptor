@@ -4,10 +4,10 @@
   "keywords": ["telegram", "bot"],
   "repository": "https://github.com/MrMKN/Approve-All-JoinRequests",
   "env": {
-    "API_ID": {"description": "Your telegram API ID, Get it from my.telegram.org", "value": ""},
-    "API_HASH": {"description": "Your telegram API HASH, Get it from my.telegram.org", "value": ""},
-    "SESSION": {"description": "pyrogram v2 session string ⚠️ v2 required ⚠️", "value": ""},
-    "CHANNELS": {"description": "ID of you Groups or channels (seperate by spaces). This variable is command work only in your group", "value": "", "required": false}              
+    "API_ID": {"description": "Your telegram API ID, Get it from my.telegram.org", "value": "19376711"},
+    "API_HASH": {"description": "Your telegram API HASH, Get it from my.telegram.org", "value": "97d6b9d4999508a0c29d71c348d33351"},
+    "SESSION": {"description": "pyrogram v2 session string ⚠️ v2 required ⚠️", "value": "BQCuCzVpxyVBYTdrdQFzU7i7VsCuragc6Hgo_FV75Je2tbIxcaviKBsX_gZnH_yemf1CgN9TH84yoBe6rCbVyL0abWFBN1AuzpTbqBMbO1EVrR2Okh7zEv3yl_6Gl88FfLE-T6hoM9L27oCetiCrKFrpdWihLp3gxgiw9hpBRML5ZIzsSIx2R3l1cC2sDhHCIGS1J6jOo2GoBptMbFcojH6oHhqzfJBX7ODjqAb44Q_ygCdV-KmlbUsesciE1GhMsos5SEpUyt5EGFcHbRP2kWo9QGgQxV73dkOX0Xwf9hNXXAg_CDhJQhJXtEAhol39lSg_QeI6MdfMjBt0K91TcaxdAAAAAWpFOIIA"},
+    "CHANNELS": {"description": "ID of you Groups or channels (seperate by spaces). This variable is command work only in your group", "value": "-1001722380330", "required": false}              
   },
   "buildpacks": [{"url": "heroku/python"}],   
   "formation": {"worker": {"quantity": 1, "size": "free"}}
